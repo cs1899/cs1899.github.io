@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Charvi Swami | Finance & Business Analytics</title>
 
   <style>
@@ -28,13 +29,16 @@
       text-decoration: none;
     }
 
-    /* NAVIGATION */
+    /* =========================
+       NAVIGATION
+    ========================= */
+
     nav {
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 100;
-      background: rgba(248, 247, 244, 0.9);
+      background: rgba(248, 247, 244, 0.90);
       backdrop-filter: blur(14px);
       border-bottom: 1px solid #e5e2dc;
     }
@@ -68,12 +72,17 @@
       opacity: 0.5;
     }
 
-    /* HERO */
+
+    /* =========================
+       HERO
+    ========================= */
+
     .hero {
       min-height: 100vh;
       max-width: 1200px;
       margin: auto;
       padding: 150px 40px 80px;
+
       display: grid;
       grid-template-columns: 1.2fr 0.8fr;
       align-items: center;
@@ -135,6 +144,11 @@
       color: white;
     }
 
+
+    /* =========================
+       HEADSHOT
+    ========================= */
+
     .portrait {
       display: flex;
       justify-content: center;
@@ -160,7 +174,11 @@
       z-index: -1;
     }
 
-    /* SECTIONS */
+
+    /* =========================
+       GENERAL SECTIONS
+    ========================= */
+
     section {
       max-width: 1200px;
       margin: auto;
@@ -185,7 +203,11 @@
       letter-spacing: -2px;
     }
 
-    /* ABOUT */
+
+    /* =========================
+       ABOUT
+    ========================= */
+
     .about {
       border-top: 1px solid #dedbd5;
     }
@@ -221,7 +243,11 @@
       color: #666;
     }
 
-    /* SKILLS */
+
+    /* =========================
+       SKILLS
+    ========================= */
+
     .skills {
       border-top: 1px solid #dedbd5;
     }
@@ -237,7 +263,9 @@
       border: 1px solid #e4e1dc;
       padding: 25px;
       min-height: 120px;
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
     }
 
     .skill:hover {
@@ -255,7 +283,11 @@
       font-size: 14px;
     }
 
-    /* PROJECTS */
+
+    /* =========================
+       PROJECTS
+    ========================= */
+
     .projects {
       border-top: 1px solid #dedbd5;
     }
@@ -270,10 +302,12 @@
       background: #171717;
       color: white;
       padding: 40px;
+
       display: grid;
       grid-template-columns: 90px 1fr auto;
       gap: 35px;
       align-items: start;
+
       transition: transform 0.25s ease;
     }
 
@@ -325,7 +359,11 @@
       border-color: white;
     }
 
-    /* EXPERIENCE */
+
+    /* =========================
+       EXPERIENCE
+    ========================= */
+
     .experience {
       border-top: 1px solid #dedbd5;
     }
@@ -334,6 +372,7 @@
       display: grid;
       grid-template-columns: 180px 1fr;
       gap: 50px;
+
       padding: 30px 0;
       border-bottom: 1px solid #dedbd5;
     }
@@ -360,10 +399,15 @@
       font-size: 15px;
     }
 
-    /* CONTACT */
+
+    /* =========================
+       CONTACT
+    ========================= */
+
     .contact {
       background: #e8e2d9;
       max-width: none;
+
       padding-left: max(40px, calc((100% - 1120px) / 2));
       padding-right: max(40px, calc((100% - 1120px) / 2));
     }
@@ -392,6 +436,11 @@
       border-bottom: 1px solid #777;
     }
 
+
+    /* =========================
+       FOOTER
+    ========================= */
+
     footer {
       background: #e8e2d9;
       padding: 25px 40px;
@@ -400,8 +449,13 @@
       color: #777;
     }
 
-    /* MOBILE */
+
+    /* =========================
+       MOBILE
+    ========================= */
+
     @media (max-width: 800px) {
+
       .nav-inner {
         padding: 18px 22px;
       }
@@ -449,7 +503,9 @@
       }
     }
 
+
     @media (max-width: 500px) {
+
       .nav-links a:nth-child(3) {
         display: none;
       }
@@ -465,12 +521,21 @@
   </style>
 </head>
 
+
 <body>
 
-  <!-- NAVIGATION -->
+
+  <!-- =========================
+       NAVIGATION
+  ========================= -->
+
   <nav>
+
     <div class="nav-inner">
-      <a href="#" class="logo">CS.</a>
+
+      <a href="#" class="logo">
+        CS.
+      </a>
 
       <div class="nav-links">
         <a href="#about">About</a>
@@ -479,15 +544,24 @@
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </div>
+
     </div>
+
   </nav>
 
 
-  <!-- HERO / PERSONAL STATEMENT -->
+
+  <!-- =========================
+       HERO / PERSONAL STATEMENT
+  ========================= -->
+
   <header class="hero">
 
     <div class="hero-content">
-      <div class="eyebrow">Finance × Analytics × Strategy</div>
+
+      <div class="eyebrow">
+        Finance × Analytics × Strategy
+      </div>
 
       <h1>
         Charvi<br>
@@ -501,142 +575,255 @@
       </p>
 
       <div class="buttons">
-        <a class="button primary" href="CharviSwami_Resume_Fall26.docx" target="_blank">
+
+        <!-- RESUME PDF -->
+        <a
+          class="button primary"
+          href="resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           View Resume
         </a>
 
-        <a class="button secondary" href="#projects">
+        <a
+          class="button secondary"
+          href="#projects"
+        >
           Explore My Work
         </a>
+
       </div>
+
     </div>
 
+
+    <!-- HEADSHOT -->
+
     <div class="portrait">
-      <img src="headshot copy.jpeg" alt="Charvi Swami">
+
+      <img
+        src="headshot copy.jpeg"
+        alt="Charvi Swami"
+      >
+
     </div>
 
   </header>
 
 
-  <!-- ABOUT -->
+
+  <!-- =========================
+       PERSONAL STATEMENT
+  ========================= -->
+
   <section class="about" id="about">
 
     <div class="section-label">
-      <span class="section-number">01</span>
-      <h2 class="section-title">Personal Statement</h2>
+
+      <span class="section-number">
+        01
+      </span>
+
+      <h2 class="section-title">
+        Personal Statement
+      </h2>
+
     </div>
+
 
     <div class="about-grid">
 
       <div class="about-text">
+
         <p>
-          I am a <strong>Finance student at Rutgers University</strong> pursuing
-          a Business Analytics concentration, with experience spanning financial
-          reporting, audit, market research, customer analytics, and strategy.
+          I am a
+          <strong>Finance student at Rutgers University</strong>
+          pursuing a Business Analytics concentration, with experience
+          spanning financial reporting, audit, market research, customer
+          analytics, and strategy.
         </p>
 
         <br>
 
         <p>
-          My work sits at the intersection of <strong>finance, data, and
-          strategy</strong> — from analyzing financial statements and market
-          trends to using SQL, Excel, Tableau, and generative AI tools to
-          transform data into meaningful business decisions.
+          My work sits at the intersection of
+          <strong>finance, data, and strategy</strong>
+          — from analyzing financial statements and market trends to using
+          SQL, Excel, Tableau, and generative AI tools to transform data
+          into meaningful business decisions.
         </p>
+
       </div>
 
+
       <div class="focus-box">
-        <h3>What I Bring</h3>
+
+        <h3>
+          What I Bring
+        </h3>
+
         <p>
           A quantitative mindset paired with hands-on experience across
           financial analysis, market research, consulting, and entrepreneurial
           environments. I enjoy breaking down ambiguous problems, finding
-          patterns in data, and understanding the commercial story behind the
-          numbers.
+          patterns in data, and understanding the commercial story behind
+          the numbers.
         </p>
+
       </div>
 
     </div>
+
   </section>
 
 
-  <!-- SKILLS -->
+
+  <!-- =========================
+       SKILLS
+  ========================= -->
+
   <section class="skills" id="skills">
 
     <div class="section-label">
-      <span class="section-number">02</span>
-      <h2 class="section-title">Skills</h2>
+
+      <span class="section-number">
+        02
+      </span>
+
+      <h2 class="section-title">
+        Skills
+      </h2>
+
     </div>
+
 
     <div class="skill-grid">
 
+
       <div class="skill">
-        <h3>Financial Analysis</h3>
+
+        <h3>
+          Financial Analysis
+        </h3>
+
         <p>
           Financial Modeling · Valuation Modeling · Financial Reporting &
           Analysis · Financial Statements
         </p>
+
       </div>
 
+
       <div class="skill">
-        <h3>Data Analytics</h3>
+
+        <h3>
+          Data Analytics
+        </h3>
+
         <p>
           SQL · R · Excel · Pivot Tables · XLOOKUP · Statistical Analysis
         </p>
+
       </div>
 
+
       <div class="skill">
-        <h3>Market Research</h3>
+
+        <h3>
+          Market Research
+        </h3>
+
         <p>
           Competitive Analysis · Market Trends · Customer Segmentation ·
           Commercial Strategy
         </p>
+
       </div>
 
+
       <div class="skill">
-        <h3>Business Intelligence</h3>
+
+        <h3>
+          Business Intelligence
+        </h3>
+
         <p>
           Tableau · Data Visualization · Dashboard Development ·
           Generative AI Applications
         </p>
+
       </div>
 
+
       <div class="skill">
-        <h3>Finance Platforms</h3>
+
+        <h3>
+          Finance Platforms
+        </h3>
+
         <p>
           Bloomberg Terminal · Bloomberg Market Concepts
         </p>
+
       </div>
 
+
       <div class="skill">
-        <h3>Communication</h3>
+
+        <h3>
+          Communication
+        </h3>
+
         <p>
           Presentations · Team Communication · Consulting ·
           Stakeholder Engagement
         </p>
+
       </div>
 
     </div>
+
   </section>
 
 
-  <!-- PROJECTS -->
+
+  <!-- =========================
+       PROJECTS
+  ========================= -->
+
   <section class="projects" id="projects">
 
     <div class="section-label">
-      <span class="section-number">03</span>
-      <h2 class="section-title">Selected Projects</h2>
+
+      <span class="section-number">
+        03
+      </span>
+
+      <h2 class="section-title">
+        Selected Projects
+      </h2>
+
     </div>
+
 
     <div class="project-list">
 
+
       <!-- PROJECT 1 -->
+
       <article class="project">
 
-        <div class="project-number">01</div>
+        <div class="project-number">
+          01
+        </div>
+
 
         <div>
-          <h3>Investment Analysis & Stock Pitch</h3>
+
+          <h3>
+            Investment Analysis & Stock Pitch
+          </h3>
 
           <p>
             Developed investment presentations using market data, company
@@ -645,12 +832,27 @@
             investment thesis.
           </p>
 
+
           <div class="project-tags">
-            <span class="tag">Financial Analysis</span>
-            <span class="tag">Valuation</span>
-            <span class="tag">Market Research</span>
+
+            <span class="tag">
+              Financial Analysis
+            </span>
+
+            <span class="tag">
+              Valuation
+            </span>
+
+            <span class="tag">
+              Market Research
+            </span>
+
           </div>
+
         </div>
+
+
+        <!-- Replace # with your actual project link -->
 
         <a
           href="#"
@@ -663,13 +865,21 @@
       </article>
 
 
+
       <!-- PROJECT 2 -->
+
       <article class="project">
 
-        <div class="project-number">02</div>
+        <div class="project-number">
+          02
+        </div>
+
 
         <div>
-          <h3>Consumer & Wellness Market Analysis</h3>
+
+          <h3>
+            Consumer & Wellness Market Analysis
+          </h3>
 
           <p>
             Analyzed consumer and wellness market trends across 20+ competitor
@@ -678,13 +888,31 @@
             opportunities.
           </p>
 
+
           <div class="project-tags">
-            <span class="tag">Market Research</span>
-            <span class="tag">Competitive Analysis</span>
-            <span class="tag">Claude</span>
-            <span class="tag">Copilot</span>
+
+            <span class="tag">
+              Market Research
+            </span>
+
+            <span class="tag">
+              Competitive Analysis
+            </span>
+
+            <span class="tag">
+              Claude
+            </span>
+
+            <span class="tag">
+              Copilot
+            </span>
+
           </div>
+
         </div>
+
+
+        <!-- Replace # with your actual project link -->
 
         <a
           href="#"
@@ -697,13 +925,21 @@
       </article>
 
 
+
       <!-- PROJECT 3 -->
+
       <article class="project">
 
-        <div class="project-number">03</div>
+        <div class="project-number">
+          03
+        </div>
+
 
         <div>
-          <h3>Environmental Education Strategy</h3>
+
+          <h3>
+            Environmental Education Strategy
+          </h3>
 
           <p>
             Led focus groups and collaborated with faculty to evaluate
@@ -712,12 +948,27 @@
             considerations into recommendations for new educational pathways.
           </p>
 
+
           <div class="project-tags">
-            <span class="tag">Strategy</span>
-            <span class="tag">Cost-Benefit Analysis</span>
-            <span class="tag">Consulting</span>
+
+            <span class="tag">
+              Strategy
+            </span>
+
+            <span class="tag">
+              Cost-Benefit Analysis
+            </span>
+
+            <span class="tag">
+              Consulting
+            </span>
+
           </div>
+
         </div>
+
+
+        <!-- Replace # with your actual project link -->
 
         <a
           href="#"
@@ -730,23 +981,49 @@
       </article>
 
     </div>
+
   </section>
 
 
-  <!-- EXPERIENCE -->
+
+  <!-- =========================
+       EXPERIENCE
+  ========================= -->
+
   <section class="experience" id="experience">
 
     <div class="section-label">
-      <span class="section-number">04</span>
-      <h2 class="section-title">Experience</h2>
+
+      <span class="section-number">
+        04
+      </span>
+
+      <h2 class="section-title">
+        Experience
+      </h2>
+
     </div>
 
+
+
+    <!-- PRO MANTRA -->
+
     <div class="experience-item">
-      <div class="experience-date">Jun 2025 — Present</div>
+
+      <div class="experience-date">
+        Jun 2025 — Present
+      </div>
+
 
       <div>
-        <h3>Finance & Sales Intern</h3>
-        <div class="experience-company">Pro Mantra Labs</div>
+
+        <h3>
+          Finance & Sales Intern
+        </h3>
+
+        <div class="experience-company">
+          Pro Mantra Labs
+        </div>
 
         <p>
           Analyze consumer and wellness market trends across 20+ competitor
@@ -755,16 +1032,31 @@
           outreach to 50+ creator partners and assess promotional campaigns
           and competitive positioning.
         </p>
+
       </div>
+
     </div>
 
 
+
+    <!-- MANA CPA -->
+
     <div class="experience-item">
-      <div class="experience-date">May 2025 — Jan 2026</div>
+
+      <div class="experience-date">
+        May 2025 — Jan 2026
+      </div>
+
 
       <div>
-        <h3>Audit Intern</h3>
-        <div class="experience-company">MANA CPA Services</div>
+
+        <h3>
+          Audit Intern
+        </h3>
+
+        <div class="experience-company">
+          MANA CPA Services
+        </div>
 
         <p>
           Prepared financial report analyses involving balance sheets,
@@ -772,16 +1064,31 @@
           examined detailed financial ledgers and credit data across
           15+ companies and individuals.
         </p>
+
       </div>
+
     </div>
 
 
+
+    <!-- DEPARTMENT OF EDUCATION -->
+
     <div class="experience-item">
-      <div class="experience-date">Jun 2023 — Aug 2025</div>
+
+      <div class="experience-date">
+        Jun 2023 — Aug 2025
+      </div>
+
 
       <div>
-        <h3>Environmental Literacy Student Champion</h3>
-        <div class="experience-company">Delaware Department of Education</div>
+
+        <h3>
+          Environmental Literacy Student Champion
+        </h3>
+
+        <div class="experience-company">
+          Delaware Department of Education
+        </div>
 
         <p>
           Directed environmental literacy focus groups, collaborated with
@@ -789,16 +1096,31 @@
           allocation strategies for curriculum implementation across
           20 middle and high schools.
         </p>
+
       </div>
+
     </div>
 
 
+
+    <!-- GOTA & ZARI -->
+
     <div class="experience-item">
-      <div class="experience-date">Oct 2023 — May 2024</div>
+
+      <div class="experience-date">
+        Oct 2023 — May 2024
+      </div>
+
 
       <div>
-        <h3>Marketing Intern</h3>
-        <div class="experience-company">GOTA & ZARI</div>
+
+        <h3>
+          Marketing Intern
+        </h3>
+
+        <div class="experience-company">
+          GOTA & ZARI
+        </div>
 
         <p>
           Conducted market and customer segmentation analysis across 300+
@@ -806,21 +1128,32 @@
           content strategy, contributing to increases in online inquiries
           and social engagement.
         </p>
+
       </div>
+
     </div>
 
   </section>
 
 
-  <!-- CONTACT -->
+
+  <!-- =========================
+       CONTACT
+  ========================= -->
+
   <section class="contact" id="contact">
 
-    <h2>Let's<br>connect.</h2>
+    <h2>
+      Let's<br>
+      connect.
+    </h2>
+
 
     <p>
       Interested in finance, analytics, strategy, or simply want to talk
       about a project? I'd love to connect.
     </p>
+
 
     <div class="contact-links">
 
@@ -828,15 +1161,23 @@
         Email
       </a>
 
+
       <a
         href="https://www.linkedin.com/in/charvi-swami"
         target="_blank"
+        rel="noopener noreferrer"
       >
         LinkedIn
       </a>
 
-      <!-- Replace # with your GitHub -->
-      <a href="#" target="_blank">
+
+      <!-- Replace # with your GitHub profile -->
+
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         GitHub
       </a>
 
@@ -845,34 +1186,69 @@
   </section>
 
 
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
   <footer>
+
     © 2026 Charvi Swami · Finance & Business Analytics
+
   </footer>
 
 
+
+  <!-- =========================
+       ANIMATION
+  ========================= -->
+
   <script>
-    // Small fade-in effect when sections enter the screen
-    const sections = document.querySelectorAll("section, .hero-content, .portrait");
+
+    const sections = document.querySelectorAll(
+      "section, .hero-content, .portrait"
+    );
 
     const observer = new IntersectionObserver(
       entries => {
+
         entries.forEach(entry => {
+
           if (entry.isIntersecting) {
+
             entry.target.style.opacity = "1";
-            entry.target.style.transform = "translateY(0)";
+
+            entry.target.style.transform =
+              "translateY(0)";
+
           }
+
         });
+
       },
-      { threshold: 0.08 }
+
+      {
+        threshold: 0.08
+      }
     );
 
+
     sections.forEach(section => {
+
       section.style.opacity = "0";
-      section.style.transform = "translateY(20px)";
-      section.style.transition = "opacity 0.7s ease, transform 0.7s ease";
+
+      section.style.transform =
+        "translateY(20px)";
+
+      section.style.transition =
+        "opacity 0.7s ease, transform 0.7s ease";
+
       observer.observe(section);
+
     });
+
   </script>
+
 
 </body>
 </html>
