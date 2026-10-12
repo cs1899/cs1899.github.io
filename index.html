@@ -1,9 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Charvi Swami | Finance & Business Analytics</title>
 
   <style>
@@ -13,9 +13,7 @@
       box-sizing: border-box;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
@@ -30,7 +28,6 @@
     }
 
     /* NAVIGATION */
-
     nav {
       position: fixed;
       top: 0;
@@ -62,23 +59,15 @@
       font-size: 14px;
     }
 
-    .nav-links a {
-      transition: opacity 0.2s ease;
-    }
-
-    .nav-links a:hover {
-      opacity: 0.5;
-    }
-
+    .nav-links a { transition: opacity 0.2s ease; }
+    .nav-links a:hover { opacity: 0.5; }
 
     /* HERO */
-
     .hero {
       min-height: 100vh;
       max-width: 1200px;
       margin: auto;
       padding: 150px 40px 80px;
-
       display: grid;
       grid-template-columns: 1.2fr 0.8fr;
       align-items: center;
@@ -101,9 +90,7 @@
       margin-bottom: 35px;
     }
 
-    .hero h1 span {
-      color: #8b7a67;
-    }
+    .hero h1 span { color: #8b7a67; }
 
     .statement {
       max-width: 650px;
@@ -131,18 +118,14 @@
       color: white;
     }
 
-    .button:hover {
-      transform: translateY(-2px);
-    }
+    .button:hover { transform: translateY(-2px); }
 
     .button.secondary:hover {
       background: #171717;
       color: white;
     }
 
-
     /* HEADSHOT */
-
     .portrait {
       display: flex;
       justify-content: center;
@@ -168,9 +151,7 @@
       z-index: -1;
     }
 
-
     /* GENERAL SECTIONS */
-
     section {
       max-width: 1200px;
       margin: auto;
@@ -195,12 +176,8 @@
       letter-spacing: -2px;
     }
 
-
-    /* ABOUT */
-
-    .about {
-      border-top: 1px solid #dedbd5;
-    }
+    /* PERSONAL STATEMENT */
+    .about { border-top: 1px solid #dedbd5; }
 
     .about-grid {
       display: grid;
@@ -213,9 +190,7 @@
       color: #555;
     }
 
-    .about-text strong {
-      color: #171717;
-    }
+    .about-text strong { color: #171717; }
 
     .focus-box {
       border-left: 2px solid #8b7a67;
@@ -229,16 +204,10 @@
       letter-spacing: 2px;
     }
 
-    .focus-box p {
-      color: #666;
-    }
-
+    .focus-box p { color: #666; }
 
     /* SKILLS */
-
-    .skills {
-      border-top: 1px solid #dedbd5;
-    }
+    .skills { border-top: 1px solid #dedbd5; }
 
     .skill-grid {
       display: grid;
@@ -251,10 +220,7 @@
       border: 1px solid #e4e1dc;
       padding: 25px;
       min-height: 120px;
-
-      transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
     .skill:hover {
@@ -272,12 +238,8 @@
       font-size: 14px;
     }
 
-
     /* PROJECTS */
-
-    .projects {
-      border-top: 1px solid #dedbd5;
-    }
+    .projects { border-top: 1px solid #dedbd5; }
 
     .project-list {
       display: flex;
@@ -289,17 +251,13 @@
       background: #171717;
       color: white;
       padding: 40px;
-
       display: grid;
       grid-template-columns: 90px 1fr;
       gap: 35px;
-
       transition: transform 0.25s ease;
     }
 
-    .project:hover {
-      transform: translateX(7px);
-    }
+    .project:hover { transform: translateX(7px); }
 
     .project-number {
       font-size: 13px;
@@ -334,18 +292,13 @@
       letter-spacing: 1px;
     }
 
-
     /* EXPERIENCE */
-
-    .experience {
-      border-top: 1px solid #dedbd5;
-    }
+    .experience { border-top: 1px solid #dedbd5; }
 
     .experience-item {
       display: grid;
       grid-template-columns: 180px 1fr;
       gap: 50px;
-
       padding: 30px 0;
       border-bottom: 1px solid #dedbd5;
     }
@@ -372,13 +325,10 @@
       font-size: 15px;
     }
 
-
     /* CONTACT */
-
     .contact {
       background: #e8e2d9;
       max-width: none;
-
       padding-left: max(40px, calc((100% - 1120px) / 2));
       padding-right: max(40px, calc((100% - 1120px) / 2));
     }
@@ -408,13 +358,9 @@
       transition: opacity 0.2s ease;
     }
 
-    .contact-links a:hover {
-      opacity: 0.5;
-    }
-
+    .contact-links a:hover { opacity: 0.5; }
 
     /* FOOTER */
-
     footer {
       background: #e8e2d9;
       padding: 25px 40px;
@@ -423,19 +369,10 @@
       color: #777;
     }
 
-
     /* MOBILE */
-
     @media (max-width: 800px) {
-
-      .nav-inner {
-        padding: 18px 22px;
-      }
-
-      .nav-links {
-        gap: 14px;
-        font-size: 12px;
-      }
+      .nav-inner { padding: 18px 22px; }
+      .nav-links { gap: 14px; font-size: 12px; }
 
       .hero {
         grid-template-columns: 1fr;
@@ -443,72 +380,34 @@
         gap: 60px;
       }
 
-      .hero h1 {
-        letter-spacing: -3px;
-      }
-
-      .portrait {
-        order: -1;
-      }
-
-      section {
-        padding: 80px 25px;
-      }
+      .hero h1 { letter-spacing: -3px; }
+      .portrait { order: -1; }
+      section { padding: 80px 25px; }
 
       .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
       }
 
-      .skill-grid {
-        grid-template-columns: 1fr 1fr;
-      }
-
-      .project {
-        grid-template-columns: 1fr;
-        gap: 15px;
-      }
-
-      .experience-item {
-        grid-template-columns: 1fr;
-        gap: 8px;
-      }
+      .skill-grid { grid-template-columns: 1fr 1fr; }
+      .project { grid-template-columns: 1fr; gap: 15px; }
+      .experience-item { grid-template-columns: 1fr; gap: 8px; }
     }
-
 
     @media (max-width: 500px) {
-
-      .nav-links a:nth-child(3) {
-        display: none;
-      }
-
-      .skill-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero h1 {
-        font-size: 58px;
-      }
+      .nav-links a:nth-child(3) { display: none; }
+      .skill-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 58px; }
     }
-
   </style>
 </head>
 
-
 <body>
 
-
-  <!-- =========================
-       NAVIGATION
-  ========================= -->
-
+  <!-- NAVIGATION -->
   <nav>
-
     <div class="nav-inner">
-
-      <a href="#" class="logo">
-        CS.
-      </a>
+      <a href="#" class="logo">CS.</a>
 
       <div class="nav-links">
         <a href="#about">About</a>
@@ -517,29 +416,15 @@
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </div>
-
     </div>
-
   </nav>
 
-
-
-  <!-- =========================
-       HERO
-  ========================= -->
-
+  <!-- HERO -->
   <header class="hero">
-
     <div class="hero-content">
+      <div class="eyebrow">Finance × Analytics × Strategy</div>
 
-      <div class="eyebrow">
-        Finance × Analytics × Strategy
-      </div>
-
-      <h1>
-        Charvi<br>
-        <span>Swami.</span>
-      </h1>
+      <h1>Charvi<br><span>Swami.</span></h1>
 
       <p class="statement">
         Finance and Business Analytics student at Rutgers University combining
@@ -548,71 +433,35 @@
       </p>
 
       <div class="buttons">
-
-        <!-- ONLY RESUME LINK IN THIS SECTION -->
-
-        <a
-          class="button primary"
-          href="resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a class="button primary"
+           href="resume.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
           View Resume
         </a>
 
-        <a
-          class="button secondary"
-          href="#projects"
-        >
+        <a class="button secondary" href="#projects">
           Explore My Work
         </a>
-
       </div>
-
     </div>
-
-
-    <!-- HEADSHOT -->
 
     <div class="portrait">
-
-      <img
-        src="headshot copy.jpeg"
-        alt="Charvi Swami"
-      >
-
+      <img src="headshot copy.jpeg" alt="Charvi Swami">
     </div>
-
   </header>
 
-
-
-  <!-- =========================
-       PERSONAL STATEMENT
-  ========================= -->
-
+  <!-- PERSONAL STATEMENT -->
   <section class="about" id="about">
-
     <div class="section-label">
-
-      <span class="section-number">
-        01
-      </span>
-
-      <h2 class="section-title">
-        Personal Statement
-      </h2>
-
+      <span class="section-number">01</span>
+      <h2 class="section-title">Personal Statement</h2>
     </div>
 
-
     <div class="about-grid">
-
       <div class="about-text">
-
         <p>
-          I am a
-          <strong>Finance student at Rutgers University</strong>
+          I am a <strong>Finance student at Rutgers University</strong>
           pursuing a Business Analytics concentration, with experience
           spanning financial reporting, audit, market research, customer
           analytics, and strategy.
@@ -622,21 +471,15 @@
 
         <p>
           My work sits at the intersection of
-          <strong>finance, data, and strategy</strong>
-          — from analyzing financial statements and market trends to using
-          SQL, Excel, Tableau, and generative AI tools to transform data
-          into meaningful business decisions.
+          <strong>finance, data, and strategy</strong> — from analyzing
+          financial statements and market trends to using SQL, Excel,
+          Tableau, and generative AI tools to transform data into meaningful
+          business decisions.
         </p>
-
       </div>
 
-
       <div class="focus-box">
-
-        <h3>
-          What I Bring
-        </h3>
-
+        <h3>What I Bring</h3>
         <p>
           A quantitative mindset paired with hands-on experience across
           financial analysis, market research, consulting, and entrepreneurial
@@ -644,442 +487,226 @@
           patterns in data, and understanding the commercial story behind
           the numbers.
         </p>
-
       </div>
-
     </div>
-
   </section>
 
-
-
-  <!-- =========================
-       SKILLS
-  ========================= -->
-
+  <!-- SKILLS -->
   <section class="skills" id="skills">
-
     <div class="section-label">
-
-      <span class="section-number">
-        02
-      </span>
-
-      <h2 class="section-title">
-        Skills
-      </h2>
-
+      <span class="section-number">02</span>
+      <h2 class="section-title">Skills</h2>
     </div>
-
 
     <div class="skill-grid">
-
-
       <div class="skill">
-
-        <h3>
-          Financial Analysis
-        </h3>
-
-        <p>
-          Financial Modeling · Valuation Modeling · Financial Reporting &
-          Analysis · Financial Statements
-        </p>
-
+        <h3>Financial Analysis</h3>
+        <p>Financial Modeling · Valuation Modeling · Financial Reporting & Analysis · Financial Statements</p>
       </div>
 
-
       <div class="skill">
-
-        <h3>
-          Data Analytics
-        </h3>
-
-        <p>
-          SQL · R · Excel · Pivot Tables · XLOOKUP · Statistical Analysis
-        </p>
-
+        <h3>Data Analytics</h3>
+        <p>SQL · R · Excel · Pivot Tables · XLOOKUP · Statistical Analysis</p>
       </div>
 
-
       <div class="skill">
-
-        <h3>
-          Market Research
-        </h3>
-
-        <p>
-          Competitive Analysis · Market Trends · Customer Segmentation ·
-          Commercial Strategy
-        </p>
-
+        <h3>Market Research</h3>
+        <p>Competitive Analysis · Market Trends · Customer Segmentation · Commercial Strategy</p>
       </div>
 
-
       <div class="skill">
-
-        <h3>
-          Business Intelligence
-        </h3>
-
-        <p>
-          Tableau · Data Visualization · Dashboard Development ·
-          Generative AI Applications
-        </p>
-
+        <h3>Business Intelligence</h3>
+        <p>Tableau · Data Visualization · Dashboard Development · Generative AI Applications</p>
       </div>
 
-
       <div class="skill">
-
-        <h3>
-          Finance Platforms
-        </h3>
-
-        <p>
-          Bloomberg Terminal · Bloomberg Market Concepts
-        </p>
-
+        <h3>Finance Platforms</h3>
+        <p>Bloomberg Terminal · Bloomberg Market Concepts</p>
       </div>
 
-
       <div class="skill">
-
-        <h3>
-          Communication
-        </h3>
-
-        <p>
-          Presentations · Team Communication · Consulting ·
-          Stakeholder Engagement
-        </p>
-
+        <h3>Communication</h3>
+        <p>Presentations · Team Communication · Consulting · Stakeholder Engagement</p>
       </div>
-
     </div>
-
   </section>
 
-
-
-  <!-- =========================
-       PROJECTS
-  ========================= -->
-
+  <!-- PROJECTS -->
   <section class="projects" id="projects">
-
     <div class="section-label">
-
-      <span class="section-number">
-        03
-      </span>
-
-      <h2 class="section-title">
-        Selected Projects
-      </h2>
-
+      <span class="section-number">03</span>
+      <h2 class="section-title">Selected Projects</h2>
     </div>
-
 
     <div class="project-list">
 
-
-      <!-- PROJECT 1 -->
-
       <article class="project">
-
-        <div class="project-number">
-          01
-        </div>
+        <div class="project-number">01</div>
 
         <div>
-
-          <h3>
-            Investment Analysis & Stock Pitch
-          </h3>
+          <h3>Investment Analysis & Stock Pitch</h3>
 
           <p>
             Developed investment presentations using market data, company
             financial performance, and strategic insights to evaluate
-            investment opportunities and communicate an actionable
-            investment thesis. The analysis incorporated financial
-            performance, market conditions, and company-specific strategic
-            factors to build a structured perspective on an investment
-            opportunity.
+            investment opportunities and communicate an actionable investment
+            thesis. The analysis considered financial performance, market
+            conditions, and company-specific factors to build a structured
+            perspective on an investment opportunity.
           </p>
 
           <div class="project-tags">
-
-            <span class="tag">
-              Financial Analysis
-            </span>
-
-            <span class="tag">
-              Valuation
-            </span>
-
-            <span class="tag">
-              Market Research
-            </span>
-
+            <span class="tag">Financial Analysis</span>
+            <span class="tag">Valuation</span>
+            <span class="tag">Market Research</span>
           </div>
-
         </div>
-
       </article>
 
-
-
-      <!-- PROJECT 2 -->
-
       <article class="project">
-
-        <div class="project-number">
-          02
-        </div>
+        <div class="project-number">02</div>
 
         <div>
-
-          <h3>
-            Consumer & Wellness Market Analysis
-          </h3>
+          <h3>Consumer & Wellness Market Analysis</h3>
 
           <p>
             Analyzed consumer and wellness market trends across 20+ competitor
             brands, evaluating pricing, customer engagement, and product
             development strategies to identify market gaps and potential
-            growth opportunities. The project combined competitive research
-            with data-driven analysis to understand positioning and commercial
-            potential across the wellness market.
+            growth opportunities. Combined competitive research with
+            commercial analysis to assess brand positioning and market
+            potential.
           </p>
 
           <div class="project-tags">
-
-            <span class="tag">
-              Market Research
-            </span>
-
-            <span class="tag">
-              Competitive Analysis
-            </span>
-
-            <span class="tag">
-              Market Strategy
-            </span>
-
+            <span class="tag">Market Research</span>
+            <span class="tag">Competitive Analysis</span>
+            <span class="tag">Market Strategy</span>
           </div>
-
         </div>
-
       </article>
 
-
-
-      <!-- PROJECT 3 -->
-
       <article class="project">
-
-        <div class="project-number">
-          03
-        </div>
+        <div class="project-number">03</div>
 
         <div>
-
-          <h3>
-            Environmental Education Strategy
-          </h3>
+          <h3>Environmental Education Strategy</h3>
 
           <p>
             Directed CTE environmental literacy focus groups and collaborated
             with 10 faculty members to develop lesson plans and educational
             resources. Evaluated cost-benefit tradeoffs and resource
-            allocation strategies for introducing new pathway curricula and
-            activities across 20 middle and high schools, contributing to a
-            30% increase in student participation.
+            allocation for new educational pathways across 20 middle and
+            high schools, contributing to a 30% increase in student
+            participation.
           </p>
 
           <div class="project-tags">
-
-            <span class="tag">
-              Strategy
-            </span>
-
-            <span class="tag">
-              Cost-Benefit Analysis
-            </span>
-
-            <span class="tag">
-              Consulting
-            </span>
-
+            <span class="tag">Strategy</span>
+            <span class="tag">Cost-Benefit Analysis</span>
+            <span class="tag">Consulting</span>
           </div>
-
         </div>
-
       </article>
 
     </div>
-
   </section>
 
-
-
-  <!-- =========================
-       EXPERIENCE
-  ========================= -->
-
+  <!-- EXPERIENCE -->
   <section class="experience" id="experience">
-
     <div class="section-label">
-
-      <span class="section-number">
-        04
-      </span>
-
-      <h2 class="section-title">
-        Experience
-      </h2>
-
+      <span class="section-number">04</span>
+      <h2 class="section-title">Experience</h2>
     </div>
 
-
-    <!-- PRO MANTRA -->
-
     <div class="experience-item">
-
-      <div class="experience-date">
-        Jun 2025 — Present
-      </div>
+      <div class="experience-date">Jun 2025 — Present</div>
 
       <div>
-
-        <h3>
-          Finance & Sales Intern
-        </h3>
-
-        <div class="experience-company">
-          Pro Mantra Labs
-        </div>
+        <h3>Finance & Sales Intern</h3>
+        <div class="experience-company">Pro Mantra Labs</div>
 
         <p>
           Analyze consumer and wellness market trends across 20+ competitor
-          brands while evaluating pricing, customer engagement, product
-          development strategies, and commercial opportunities. Manage
-          outreach to 50+ creator partners and assess promotional campaigns
-          and competitive positioning.
+          brands, evaluating pricing, customer engagement, product development,
+          and commercial opportunities. Manage outreach to 50+ creator
+          partners and assess promotional campaigns and competitive positioning.
         </p>
-
       </div>
-
     </div>
 
-
-
-    <!-- MANA CPA -->
-
     <div class="experience-item">
-
-      <div class="experience-date">
-        May 2025 — Jan 2026
-      </div>
+      <div class="experience-date">May 2025 — Jan 2026</div>
 
       <div>
-
-        <h3>
-          Audit Intern
-        </h3>
-
-        <div class="experience-company">
-          MANA CPA Services
-        </div>
+        <h3>Audit Intern</h3>
+        <div class="experience-company">MANA CPA Services</div>
 
         <p>
           Prepared financial report analyses involving balance sheets,
-          income statements, and cash flow analysis for tax audits and
-          examined detailed financial ledgers and credit data across
-          15+ companies and individuals.
+          income statements, and cash flows for tax audits. Examined financial
+          ledgers and credit data across 15+ companies and individuals to
+          contribute to audit and financial reporting work.
         </p>
-
       </div>
-
     </div>
 
-
-
-    <!-- DELAWARE DEPARTMENT OF EDUCATION -->
-
     <div class="experience-item">
-
-      <div class="experience-date">
-        Jun 2023 — Aug 2025
-      </div>
+      <div class="experience-date">Jun 2023 — Aug 2025</div>
 
       <div>
-
-        <h3>
-          Environmental Literacy Student Champion
-        </h3>
-
-        <div class="experience-company">
-          Delaware Department of Education
-        </div>
+        <h3>Environmental Literacy Student Champion</h3>
+        <div class="experience-company">Delaware Department of Education</div>
 
         <p>
           Directed environmental literacy focus groups, collaborated with
-          faculty, and evaluated cost-benefit tradeoffs and resource
-          allocation strategies for curriculum implementation across
-          20 middle and high schools.
+          10 faculty members, and evaluated cost-benefit tradeoffs and
+          resource allocation for educational pathways across 20 schools.
+          Helped implement strategies that increased student participation
+          by 30%.
         </p>
-
       </div>
-
     </div>
 
-
-
-    <!-- GOTA & ZARI -->
-
     <div class="experience-item">
-
-      <div class="experience-date">
-        Oct 2023 — May 2024
-      </div>
+      <div class="experience-date">Oct 2023 — May 2024</div>
 
       <div>
-
-        <h3>
-          Marketing Intern
-        </h3>
-
-        <div class="experience-company">
-          GOTA & ZARI
-        </div>
+        <h3>Marketing Intern</h3>
+        <div class="experience-company">GOTA & ZARI</div>
 
         <p>
           Conducted market and customer segmentation analysis across 300+
-          customers and tracked engagement metrics to refine digital
-          content strategy, contributing to increases in online inquiries
-          and social engagement.
+          customers to refine campaign strategy, contributing to a 15%
+          increase in online inquiries. Tracked engagement metrics and
+          optimized digital content, contributing to a 25% increase in
+          social engagement on Instagram and TikTok.
         </p>
-
       </div>
-
     </div>
 
+    <div class="experience-item">
+      <div class="experience-date">Community Leadership</div>
+
+      <div>
+        <h3>Founding Team Member</h3>
+        <div class="experience-company">Serve & Supply Foundation</div>
+
+        <p>
+          Contributed to a 501(c)(3) public charity delivering school supplies
+          through dozens of drives, fundraising efforts, and giveaway events,
+          generating more than $65,000 in impact. Helped expand community
+          initiatives through financial literacy workshops, free tutoring,
+          and college counseling to connect students with educational
+          resources and help them plan for their futures.
+        </p>
+      </div>
+    </div>
   </section>
 
-
-
-  <!-- =========================
-       CONTACT
-  ========================= -->
-
+  <!-- CONTACT -->
   <section class="contact" id="contact">
-
-    <h2>
-      Let's<br>
-      connect.
-    </h2>
+    <h2>Let's<br>connect.</h2>
 
     <p>
       Interested in finance, analytics, strategy, or simply want to talk
@@ -1087,86 +714,47 @@
     </p>
 
     <div class="contact-links">
+      <a href="mailto:charvi.swami06@gmail.com">Email</a>
 
-      <!-- EMAIL -->
-
-      <a href="mailto:charvi.swami06@gmail.com">
-        Email
-      </a>
-
-
-      <!-- LINKEDIN -->
-
-      <a
-        href="https://www.linkedin.com/in/charvi-swami"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="https://www.linkedin.com/in/charvi-swami"
+         target="_blank"
+         rel="noopener noreferrer">
         LinkedIn
       </a>
-
     </div>
-
   </section>
-
-
-
-  <!-- FOOTER -->
 
   <footer>
     © 2026 Charvi Swami · Finance & Business Analytics
   </footer>
 
-
-
   <!-- SCROLL ANIMATION -->
-
   <script>
-
     const sections = document.querySelectorAll(
       "section, .hero-content, .portrait"
     );
 
     const observer = new IntersectionObserver(
       entries => {
-
         entries.forEach(entry => {
-
           if (entry.isIntersecting) {
-
             entry.target.style.opacity = "1";
-
-            entry.target.style.transform =
-              "translateY(0)";
-
+            entry.target.style.transform = "translateY(0)";
           }
-
         });
-
       },
-
-      {
-        threshold: 0.08
-      }
+      { threshold: 0.08 }
     );
 
-
     sections.forEach(section => {
-
       section.style.opacity = "0";
-
-      section.style.transform =
-        "translateY(20px)";
-
+      section.style.transform = "translateY(20px)";
       section.style.transition =
         "opacity 0.7s ease, transform 0.7s ease";
 
       observer.observe(section);
-
     });
-
   </script>
-
 
 </body>
 </html>
